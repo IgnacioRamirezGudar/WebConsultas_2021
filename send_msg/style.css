@@ -1,0 +1,133 @@
+footer {
+    background-color: #8BC34A;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #FAACA8;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+}
+
+.container {
+  width: 85%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+/**/
+  padding-top: 1.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+/**/
+  height: 450px;
+/**/
+background: #FFFEFE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+
+}
+
+.title {
+font-family: Open Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.subtitle {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  display: block;
+  background-color: #F5F5F5;
+  border: none;
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.nombre {
+  width: 100%;
+  display: inline;
+  display: inline-block;
+  border: 0;
+}
+
+.apellido {
+  width: 100%;
+  display: inline-block;
+  border: 0;
+}
+
+textarea {
+  background-color: #F5F5F5;
+  border: none;
+  margin-top: 10px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+}
+
+.button {
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+background-color: #089FE0;
+margin-top: 10px;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+
+
+.input-container {
+  width: 95%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 600px) {
+  
+}
